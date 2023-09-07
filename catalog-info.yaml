@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sgtest20"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-20"
+    "humanitec.com/appId": "sgtest20"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
